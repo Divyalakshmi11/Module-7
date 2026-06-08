@@ -1,17 +1,21 @@
-# 🔁 Recursion:Sum of Digits using Recursion in Python
-🎯 AIM:
-To write a Python program to calculate the sum of all digits in a number using recursion.
+# # 🔁 Recursion:Sum of Digits using Recursion in Python
 
-🧠 ALGORITHM:
-Start
-Define a recursive function sum_digit(n) that:
-Returns 0 if n <= 0 (Base Case)
-Else, returns n % 10 + sum_digit(n // 10) (Recursive Case)
-Take integer input from the user.
-Call the recursive function and store the result.
-Print the result.
-Stop
-💻 PROGRAM:
+## 🎯 AIM:
+To write a Python program to calculate the **sum of all digits** in a number using **recursion**.
+
+## 🧠 ALGORITHM:
+
+1. **Start**
+2. Define a recursive function `sum_digit(n)` that:
+   - Returns 0 if `n <= 0` (Base Case)
+   - Else, returns `n % 10 + sum_digit(n // 10)` (Recursive Case)
+3. Take integer input from the user.
+4. Call the recursive function and store the result.
+5. Print the result.
+6. **Stop**
+
+## 💻 PROGRAM:
+```
 def sum_of_digits(n):
  # Base case: if n is 0, return 0
  if n == 0:
@@ -23,7 +27,10 @@ def sum_of_digits(n):
 number = int(input())
 # Handling negative numbers
 number = abs(number)
-OUTPUT
-image
-RESULT
+```
+
+## OUTPUT
+<img width="229" height="148" alt="image" src="https://github.com/user-attachments/assets/8cdf3209-f87a-4803-970f-c438c25abcd0" />
+
+## RESULT
 Thus the program has been successfully executed.
